@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Pytorch Documentation",
+        "link": "https://pytorch.org/docs/stable/index.html",
+        "description": "Pytorch的用户文档，包括API使用说明"
+    },
+    {
+        "title": "CUDA Toolkit Documentation",
+        "link": "https://docs.nvidia.com/cuda/index.html",
+        "description": "CUDA文档集合，包括Programming、Best Practice、API、PTX ISA等"
+    },
+    {
+        "title": "NGC Collections",
+        "link": "https://catalog.ngc.nvidia.com/collections?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=",
+        "description": "NVIDIA各种Use Case和Platform的文档集合"
+    },
+    {
+        "title": "Nsys User Guide",
+        "link": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+        "description": "Nsight System的用户文档，包括命令参数说明"
+    },
+    {
+        "title": "NCCL User Guide",
+        "link": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/",
+        "description": "NCCL的用户文档，包括API使用说明"
+    },
+    {
+        "title": "NVSHMEM Documentation",
+        "link": "https://docs.nvidia.com/nvshmem/api/index.html",
+        "description": "NVIDIA OpenSHMEM的文档"
+    },
+    {
+        "title": "TE User Guide",
+        "link": "https://docs.nvidia.com/deeplearning/transformer-engine/user-guide/index.html",
+        "description": "Transformer Engine的用户文档，包括API使用说明"
+    },
+    {
+        "title": "Triton API Reference",
+        "link": "https://triton-lang.org/main/python-api/triton.language.html",
+        "description": "Triton的API使用说明"
+    },
+    {
+        "title": "",
+        "link": "",
+        "description": ""
+    }
+]
