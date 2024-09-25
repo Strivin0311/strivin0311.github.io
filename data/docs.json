@@ -15,6 +15,11 @@
         "description": "NVIDIA各种Use Case和Platform的文档集合"
     },
     {
+        "title": "Nvidia Pytorch Release Notes",
+        "link": "https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html",
+        "description": "ngc pytorch镜像发布说明"
+    },
+    {
         "title": "Nsys User Guide",
         "link": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
         "description": "Nsight System的用户文档，包括命令参数说明"
