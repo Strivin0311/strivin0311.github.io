@@ -17,7 +17,7 @@
     {
         "title": "Nvidia Pytorch Release Notes",
         "link": "https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html",
-        "description": "ngc pytorch镜像发布说明"
+        "description": "NGC Pytorch镜像发布说明"
     },
     {
         "title": "Nsys User Guide",
@@ -30,9 +30,9 @@
         "description": "NCCL的用户文档，包括API使用说明"
     },
     {
-        "title": "NVSHMEM Documentation",
-        "link": "https://docs.nvidia.com/nvshmem/api/index.html",
-        "description": "NVIDIA OpenSHMEM的文档"
+        "title": "Megatron Core API Guide",
+        "link": "https://docs.nvidia.com/megatron-core/developer-guide/latest/api-guide/index.html",
+        "description": "Megatron Core的使用文档"
     },
     {
         "title": "TE User Guide",
