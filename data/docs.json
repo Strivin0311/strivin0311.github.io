@@ -48,5 +48,10 @@
         "title": "",
         "link": "",
         "description": ""
+    },
+    {
+        "title": "Cuda Toolkit Archive",
+        "link": "https://developer.nvidia.com/cuda-toolkit-archive",
+        "description": "The download list for all CUDA Toolkit releases"
     }
 ]
