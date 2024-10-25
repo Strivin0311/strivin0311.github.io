@@ -15,6 +15,11 @@
         "description": "The download list for all CUDA Toolkit releases"
     },
     {
+        "title": "Nvidia Driver Archive",
+        "link": "https://www.nvidia.com/en-us/drivers/unix/linux-amd64-display-archive/",
+        "description": "The download list for all NVIDIA driver releases"
+    },
+    {
         "title": "NGC Collections",
         "link": "https://catalog.ngc.nvidia.com/collections?filters=&orderBy=weightPopularDESC&query=&page=&pageSize=",
         "description": "NVIDIA各种Use Case和Platform的文档集合"
