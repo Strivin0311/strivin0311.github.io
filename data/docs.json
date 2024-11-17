@@ -5,6 +5,11 @@
         "description": "Pytorch的用户文档，包括API使用说明"
     },
     {
+        "title": "Hugginface Documentation",
+        "link": "https://huggingface.co/docs",
+        "description": "Huggingface相关库的文档首页，包括Transformers、Datasets、Accelerate、PEFT、TRL等"
+    },
+    {
         "title": "CUDA Toolkit Documentation",
         "link": "https://docs.nvidia.com/cuda/index.html",
         "description": "CUDA文档集合，包括Programming、Best Practice、API、PTX ISA等"
