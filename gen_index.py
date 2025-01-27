@@ -137,6 +137,10 @@ def main():
     
     # 表格配置字典
     tables_config = {
+        "assistants": {
+            "title": "AI Chat Assistants",
+            "data_file": "./data/assistants.json"  # Assistants 数据文件路径
+        },
         "workspaces": {
             "title": "Recent Workspaces",
             "data_file": "./data/workspaces.json"  # Workspaces 数据文件路径

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "ChatGPT",
+        "link": "https://chatgpt.com/?model=gpt-4o",
+        "description": "OpenAI ChatGPT-4o模型"
+    },
+    {
+        "title": "Doubao",
+        "link": "https://www.doubao.com/chat/",
+        "description": "Bytedance Doubao-1.5-pro模型"
+    },
+    {
+        "title": "DeepSeek",
+        "link": "https://chat.deepseek.com/",
+        "description": "DeepSeekAI Deepseek-V3 / R1模型"
+    },
+    {
+        "title": "Kimi",
+        "link": "https://kimi.moonshot.cn/",
+        "description": "Moonshot Kimi-k1.5模型"
+    },
+    {
+        "title": "Hailuo",
+        "link": "https://hailuoai.com/",
+        "description": "Minimax Ababa-8模型"
+    },
+    {
+        "title": "Yuewen",
+        "link": "https://yuewen.cn/chats/new",
+        "description": "StepFun Step-V2模型"
+    },
+    {
+        "title": "",
+        "link": "",
+        "description": ""
+    }
+]
