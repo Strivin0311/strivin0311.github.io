@@ -145,13 +145,13 @@ def main():
             "title": "Assistants",
             "data_file": "./data/assistants.json"  # Assistants 数据文件路径
         },
-        "pubs": {
-            "title": "Publications",
-            "data_file": "./data/pubs.json"  # Pubs 数据文件路径
-        },
         "docs": {
             "title": "Documentations",
             "data_file": "./data/docs.json"  # Docs 数据文件路径
+        },
+        "pubs": {
+            "title": "Publications",
+            "data_file": "./data/pubs.json"  # Pubs 数据文件路径
         },
         # 添加新的表格配置
         # "projects": {
