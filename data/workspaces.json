@@ -25,6 +25,11 @@
         "description": "flex-flash-attention的github仓库"
     },
     {
+        "title": "FA Github Repo",
+        "link": "https://github.com/Dao-AILab/flash-attention",
+        "description": "flash-attention的github仓库"
+    },
+    {
         "title": "Odin Github Repo",
         "link": "https://github.com/littsk/odin/",
         "description": "Odin的github仓库"
