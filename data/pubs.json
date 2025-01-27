@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Medium",
+        "link": "https://medium.com/",
+        "description": "Medium Blogs"
+    },
+    {
+        "title": "Papers with Code",
+        "link": "https://paperswithcode.com/",
+        "description": "Papers with Code Publications"
+    },
+    {
+        "title": "Cool Papers",
+        "link": "https://papers.cool/",
+        "description": "Cool Papers Publications"
+    },
+    {
+        "title": "Google Scholar",
+        "link": "https://scholar.google.com/",
+        "description": "Google Scholar Publications"
+    },
+    {
+        "title": "Semantic Scholar",
+        "link": "https://www.semanticscholar.org/",
+        "description": "Semantic Scholar Publications"
+    },
+    {
+        "title": "",
+        "link": "",
+        "description": ""
+    }
+]
