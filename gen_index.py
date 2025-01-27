@@ -138,7 +138,7 @@ def main():
     # 表格配置字典
     tables_config = {
         "workspaces": {
-            "title": "Workspaces",
+            "title": "Recent Workspaces",
             "data_file": "./data/workspaces.json"  # Workspaces 数据文件路径
         },
         "docs": {

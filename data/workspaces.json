@@ -1,6 +1,6 @@
 [
     {
-        "title": "Strivin Github Page",
+        "title": "Strivin Github HomePage",
         "link": "https://github.com/Strivin0311",
         "description": "个人的github主页"
     },
@@ -20,6 +20,11 @@
         "description": "Zeus的github项目视图"
     },
     {
+        "title": "FFA Github Repo",
+        "link": "https://github.com/littsk/flexible-flash-attention",
+        "description": "flex-flash-attention的github仓库"
+    },
+    {
         "title": "Odin Github Repo",
         "link": "https://github.com/littsk/odin/",
         "description": "Odin的github仓库"
@@ -28,6 +33,21 @@
         "title": "Master Thesis NJUTex",
         "link": "https://tex.nju.edu.cn/project/user/19b27cc6-c199-48bd-91c7-cdc2ee62095f/7821c5eb-267d-424f-860d-ad4af1adcea8",
         "description": "硕士毕业论文latex项目"
+    },
+    {
+        "title": "WanDB HomePage",
+        "link": "https://wandb.ai/strivin/projects",
+        "description": "wandb主页"
+    },
+    {
+        "title": "Overleaf HomePage",
+        "link": "https://www.overleaf.com/project",
+        "description": "overleaf主页"
+    },
+    {
+        "title": "OpenReview HomePage",
+        "link": "https://openreview.net/",
+        "description": "openreview主页"
     },
     {
         "title": "",
