@@ -25,6 +25,11 @@
         "description": "Minimax Ababa-8模型"
     },
     {
+        "title": "Zhipu Qingyan",
+        "link": "https://chatglm.cn/main/alltoolsdetail?lang=zh",
+        "description": "Zhipu ChatGLM-4模型"
+    },
+    {
         "title": "Yuewen",
         "link": "https://yuewen.cn/chats/new",
         "description": "StepFun Step-V2模型"
