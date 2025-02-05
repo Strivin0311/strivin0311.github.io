@@ -20,6 +20,11 @@
         "description": "Zeus的github项目视图"
     },
     {
+        "title": "DFFA Github Repo",
+        "link": "https://github.com/world-sim-dev/dist-flex-flash-attention",
+        "description": "dist-flex-flash-attention的github仓库"
+    },
+    {
         "title": "FFA Github Repo",
         "link": "https://github.com/littsk/flexible-flash-attention",
         "description": "flex-flash-attention的github仓库"
@@ -33,6 +38,11 @@
         "title": "Odin Github Repo",
         "link": "https://github.com/littsk/odin/",
         "description": "Odin的github仓库"
+    },
+    {
+        "title": "Difftron Github Repo",
+        "link": "https://github.com/world-sim-dev/difftron",
+        "description": "Difftron的github仓库"
     },
     {
         "title": "Master Thesis NJUTex",
