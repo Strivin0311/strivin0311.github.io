@@ -5,14 +5,14 @@
         "description": "OpenAI ChatGPT-4o模型"
     },
     {
-        "title": "Doubao",
-        "link": "https://www.doubao.com/chat/",
-        "description": "Bytedance Doubao-1.5-pro模型"
-    },
-    {
         "title": "DeepSeek",
         "link": "https://chat.deepseek.com/",
         "description": "DeepSeekAI Deepseek-V3 / R1模型"
+    },
+    {
+        "title": "Doubao",
+        "link": "https://www.doubao.com/chat/",
+        "description": "Bytedance Doubao-1.5-pro模型"
     },
     {
         "title": "Kimi",
