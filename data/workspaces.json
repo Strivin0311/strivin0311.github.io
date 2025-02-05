@@ -45,24 +45,29 @@
         "description": "Difftron的github仓库"
     },
     {
-        "title": "Master Thesis NJUTex",
-        "link": "https://tex.nju.edu.cn/project/user/19b27cc6-c199-48bd-91c7-cdc2ee62095f/7821c5eb-267d-424f-860d-ad4af1adcea8",
-        "description": "硕士毕业论文latex项目"
+        "title": "SenseCore Homepage",
+        "link": "https://console.sensecore.cn/home",
+        "description": "Sandai 商汤大装置主页"
     },
     {
         "title": "WanDB HomePage",
-        "link": "https://wandb.ai/strivin/projects",
-        "description": "wandb主页"
+        "link": "https://wandb.ai/world-sim-dev/projects",
+        "description": "Sandai wandb主页"
     },
     {
         "title": "Overleaf HomePage",
         "link": "https://www.overleaf.com/project",
-        "description": "overleaf主页"
+        "description": "个人overleaf主页"
     },
     {
         "title": "OpenReview HomePage",
         "link": "https://openreview.net/",
-        "description": "openreview主页"
+        "description": "个人openreview主页"
+    },
+    {
+        "title": "Master Thesis NJUTex",
+        "link": "https://tex.nju.edu.cn/project/user/19b27cc6-c199-48bd-91c7-cdc2ee62095f/7821c5eb-267d-424f-860d-ad4af1adcea8",
+        "description": "硕士毕业论文latex项目"
     },
     {
         "title": "",
