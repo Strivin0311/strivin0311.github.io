@@ -35,21 +35,6 @@
         "description": "NGC Pytorch镜像发布说明"
     },
     {
-        "title": "Cuda Toolkit Archive",
-        "link": "https://developer.nvidia.com/cuda-toolkit-archive",
-        "description": "The download list for all CUDA Toolkit releases"
-    },
-    {
-        "title": "Nvidia Driver Archive",
-        "link": "https://www.nvidia.com/en-us/drivers/unix/linux-amd64-display-archive/",
-        "description": "The download list for all NVIDIA driver releases"
-    },
-    {
-        "title": "Huggingface Documentation",
-        "link": "https://huggingface.co/docs",
-        "description": "Huggingface相关库的文档首页，包括Transformers、Datasets、Accelerate、PEFT、TRL等"
-    },
-    {
         "title": "",
         "link": "",
         "description": ""

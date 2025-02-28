@@ -2,52 +2,62 @@
     {
         "title": "Strivin Github HomePage",
         "link": "https://github.com/Strivin0311",
-        "description": "个人的github主页"
+        "description": "strivin个人的github主页"
     },
     {
-        "title": "LLM-Learning Github Repo",
+        "title": "Strivin LLM-Learning Github Repo",
         "link": "https://github.com/Strivin0311/llms-learning",
         "description": "llm-learning的github仓库"
     },
     {
-        "title": "Zeus Github Repo",
-        "link": "https://github.com/littsk/zeus",
-        "description": "Zeus的github仓库"
+        "title": "SandAI SenseCore Homepage",
+        "link": "https://console.sensecore.cn/home",
+        "description": "SandAI的商汤大装置主页"
     },
     {
-        "title": "DFFA Github Repo",
+        "title": "SandAI WanDB HomePage",
+        "link": "https://wandb.ai/world-sim-dev/projects",
+        "description": "SandAI的WanDB主页"
+    },
+    {
+        "title": "WorldSimDev MagiCore Github Repo",
+        "link": "https://github.com/world-sim-dev/magicore",
+        "description": "MagiCore的world-sim-dev github仓库"
+    },
+    {
+        "title": "WorldSimDev Odin Github Repo",
+        "link": "https://github.com/world-sim-dev/odin",
+        "description": "Odin的world-sim-dev github仓库"
+    },
+    {
+        "title": "WorldSimDev DFFA Github Repo",
         "link": "https://github.com/world-sim-dev/dist-flex-flash-attention",
-        "description": "dist-flex-flash-attention的github仓库"
+        "description": "DFFA的world-sim-dev github仓库"
+    },
+    {
+        "title": "WorldSimDev Difftron Github Repo",
+        "link": "https://github.com/world-sim-dev/difftron",
+        "description": "Difftron的world-sim-dev github仓库"
+    },
+    {
+        "title": "Open Odin Github Repo",
+        "link": "https://github.com/littsk/odin/",
+        "description": "Odin的开源github仓库"
+    },
+    {
+        "title": "Open DFFA Github Repo",
+        "link": "https://github.com/littsk/zeus",
+        "description": "DFFA的开源github仓库"
     },
     {
         "title": "FFA Github Repo",
         "link": "https://github.com/littsk/flexible-flash-attention",
-        "description": "flex-flash-attention的github仓库"
+        "description": "FFA的开源github仓库"
     },
     {
         "title": "FA Github Repo",
         "link": "https://github.com/Dao-AILab/flash-attention",
-        "description": "flash-attention的github仓库"
-    },
-    {
-        "title": "Odin Github Repo",
-        "link": "https://github.com/littsk/odin/",
-        "description": "Odin的github仓库"
-    },
-    {
-        "title": "Difftron Github Repo",
-        "link": "https://github.com/world-sim-dev/difftron",
-        "description": "Difftron的github仓库"
-    },
-    {
-        "title": "SenseCore Homepage",
-        "link": "https://console.sensecore.cn/home",
-        "description": "Sandai 商汤大装置主页"
-    },
-    {
-        "title": "WanDB HomePage",
-        "link": "https://wandb.ai/world-sim-dev/projects",
-        "description": "Sandai wandb主页"
+        "description": "FA的开源github仓库"
     },
     {
         "title": "Overleaf HomePage",
