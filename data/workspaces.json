@@ -60,6 +60,11 @@
         "description": "FA的开源github仓库"
     },
     {
+        "title": "Torch Distributed Github Repo",
+        "link": "https://github.com/pytorch/pytorch/tree/main/torch/distributed",
+        "description": "pytorch/torch./distributed的开源github仓库子目录"
+    },
+    {
         "title": "Overleaf HomePage",
         "link": "https://www.overleaf.com/project",
         "description": "个人overleaf主页"
