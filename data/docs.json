@@ -35,6 +35,11 @@
         "description": "NGC Pytorch镜像发布说明"
     },
     {
+        "title": "Git Tutorial",
+        "link": "https://www.atlassian.com/git/tutorials",
+        "description": "Git Pro的教程"
+    },
+    {
         "title": "",
         "link": "",
         "description": ""
