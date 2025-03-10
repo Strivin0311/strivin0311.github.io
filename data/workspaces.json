@@ -67,7 +67,12 @@
     {
         "title": "Torch Distributed Github Repo",
         "link": "https://github.com/pytorch/pytorch/tree/main/torch/distributed",
-        "description": "pytorch/torch./distributed的开源仓库子目录"
+        "description": "pytorch/torch/distributed的开源仓库子目录"
+    },
+    {
+        "title": "TorchTitan Github Repo",
+        "link": "https://github.com/pytorch/torchtitan",
+        "description": "pytorch的torchtitan开源仓库"
     },
     {
         "title": "",
