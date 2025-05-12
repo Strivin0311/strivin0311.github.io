@@ -10,69 +10,19 @@
         "description": "llm-learning的github仓库"
     },
     {
-        "title": "WorldSimDev MagiCore Github Repo",
+        "title": "MagiAttention Github Repo",
+        "link": "https://github.com/SandAI-org/MagiAttention",
+        "description": "MagiAttention的开源仓库"
+    },
+    {
+        "title": "MagiCore Github Repo",
         "link": "https://github.com/world-sim-dev/magicore",
         "description": "MagiCore的world-sim-dev私有仓库"
     },
     {
-        "title": "WorldSimDev Odin Github Repo",
+        "title": "Odin Github Repo",
         "link": "https://github.com/world-sim-dev/odin",
         "description": "Odin的world-sim-dev私有仓库"
-    },
-    {
-        "title": "WorldSimDev DFFA Github Repo",
-        "link": "https://github.com/world-sim-dev/dist-flex-flash-attention",
-        "description": "DFFA的world-sim-dev私有仓库"
-    },
-    {
-        "title": "WorldSimDev FFA Github Repo",
-        "link": "https://github.com/world-sim-dev/flexible-flash-attention",
-        "description": "FFA的world-sim-dev私有仓库"
-    },
-    {
-        "title": "WorldSimDev Difftron Github Repo",
-        "link": "https://github.com/world-sim-dev/difftron",
-        "description": "Difftron的world-sim-dev私有仓库"
-    },
-    {
-        "title": "SandAI SenseCore Homepage",
-        "link": "https://console.sensecore.cn/home",
-        "description": "SandAI的商汤大装置主页"
-    },
-    {
-        "title": "SandAI WanDB HomePage",
-        "link": "https://wandb.ai/world-sim-dev/projects",
-        "description": "SandAI的WanDB主页"
-    },
-    {
-        "title": "Open Odin Github Repo",
-        "link": "https://github.com/littsk/odin/",
-        "description": "Odin的开源仓库"
-    },
-    {
-        "title": "Open DFFA Github Repo",
-        "link": "https://github.com/littsk/zeus",
-        "description": "DFFA的开源仓库"
-    },
-    {
-        "title": "Open FFA Github Repo",
-        "link": "https://github.com/littsk/flexible-flash-attention",
-        "description": "FFA的开源仓库"
-    },
-    {
-        "title": "FA Github Repo",
-        "link": "https://github.com/Dao-AILab/flash-attention",
-        "description": "FA的开源仓库"
-    },
-    {
-        "title": "Torch Distributed Github Repo",
-        "link": "https://github.com/pytorch/pytorch/tree/main/torch/distributed",
-        "description": "pytorch/torch/distributed的开源仓库子目录"
-    },
-    {
-        "title": "TorchTitan Github Repo",
-        "link": "https://github.com/pytorch/torchtitan",
-        "description": "pytorch的torchtitan开源仓库"
     },
     {
         "title": "",
