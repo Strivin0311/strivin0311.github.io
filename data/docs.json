@@ -11,7 +11,7 @@
     },
     {
         "title": "Cutlass Documentation",
-        "link": "https://github.com/NVIDIA/cutlass/tree/main/media/docs",
+        "link": "https://docs.nvidia.com/cutlass/index.html",
         "description": "Cutlass的使用文档"
     },
     {
