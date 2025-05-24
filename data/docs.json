@@ -20,6 +20,11 @@
         "description": "NCCL文档"
     },
     {
+        "title": "NHSHMEM Documentation",
+        "link": "https://docs.nvidia.com/nvshmem/api/index.html",
+        "description": "NVSHMEM文档"
+    },
+    {
         "title": "Nsys User Guide",
         "link": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
         "description": "Nsight System的用户文档，包括命令参数说明"
