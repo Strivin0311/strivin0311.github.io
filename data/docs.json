@@ -20,7 +20,7 @@
         "description": "NCCL文档"
     },
     {
-        "title": "NHSHMEM Documentation",
+        "title": "NVSHMEM Documentation",
         "link": "https://docs.nvidia.com/nvshmem/api/index.html",
         "description": "NVSHMEM文档"
     },
