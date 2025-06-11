@@ -35,6 +35,11 @@
         "description": "Nsight Compute的用户文档，包括命令参数说明"
     },
     {
+        "title": "Compute Sanitizer Documentation",
+        "link": "https://docs.nvidia.com/compute-sanitizer/ComputeSanitizer/index.html",
+        "description": "Compute Sanitizer的使用文档"
+    },
+    {
         "title": "Triton API Reference",
         "link": "https://triton-lang.org/main/python-api/triton.language.html",
         "description": "Triton的API使用说明"
