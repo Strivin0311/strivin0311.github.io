@@ -25,6 +25,11 @@
         "description": "Odin的world-sim-dev私有仓库"
     },
     {
+        "title": "Torch Github Repo",
+        "link": "https://github.com/pytorch/pytorch/tree/main/torch",
+        "description": "Torch开源仓库源码"
+    },
+    {
         "title": "",
         "link": "",
         "description": ""
