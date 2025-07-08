@@ -45,6 +45,11 @@
         "description": "Triton的API使用说明"
     },
     {
+        "title": "Pybind11 Documentation",
+        "link": "https://pybind11.readthedocs.io/en/stable/index.html",
+        "description": "Pybind11的使用说明"
+    },
+    {
         "title": "Nvidia Pytorch Release Notes",
         "link": "https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html",
         "description": "NGC Pytorch镜像发布说明"
