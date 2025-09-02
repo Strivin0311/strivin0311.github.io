@@ -7,7 +7,7 @@
     {
         "title": "Strivin LLM-Learning Github Repo",
         "link": "https://github.com/Strivin0311/llms-learning",
-        "description": "llm-learning的github仓库"
+        "description": "llm-learning的开源仓库"
     },
     {
         "title": "MagiAttention Github Repo",
@@ -15,19 +15,24 @@
         "description": "MagiAttention的开源仓库"
     },
     {
-        "title": "MagiCore Github Repo",
-        "link": "https://github.com/world-sim-dev/magicore",
-        "description": "MagiCore的world-sim-dev私有仓库"
+        "title": "MagiFSDP Github Repo",
+        "link": "https://github.com/SandAI-org/MagiFSDP",
+        "description": "MagiFSDP的私有仓库"
     },
     {
         "title": "Odin Github Repo",
         "link": "https://github.com/world-sim-dev/odin",
-        "description": "Odin的world-sim-dev私有仓库"
+        "description": "Odin的私有仓库"
+    },
+    {
+        "title": "MagiCore Github Repo",
+        "link": "https://github.com/world-sim-dev/magicore",
+        "description": "MagiCore的私有仓库"
     },
     {
         "title": "Torch Github Repo",
-        "link": "https://github.com/pytorch/pytorch/tree/main/torch",
-        "description": "Torch开源仓库源码"
+        "link": "https://github.com/pytorch/pytorch/tree/main/",
+        "description": "PyTorch的开源仓库"
     },
     {
         "title": "",
