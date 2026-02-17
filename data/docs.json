@@ -16,7 +16,7 @@
     },
     {
         "title": "CCCL Documentation",
-        "link": "https://nvidia.github.io/cccl/cpp.html",
+        "link": "https://nvidia.github.io/cccl/unstable/cpp.html",
         "description": "CCCL文档"
     },
     {
