@@ -20,6 +20,11 @@
         "description": "MagiFSDP的私有仓库"
     },
     {
+        "title": "MagiMoE Github Repo",
+        "link": "https://github.com/SandAI-org/MagiMoE",
+        "description": "MagiMoE的私有仓库"
+    },
+    {
         "title": "Odin Github Repo",
         "link": "https://github.com/world-sim-dev/odin",
         "description": "Odin的私有仓库"
