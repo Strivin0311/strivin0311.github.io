@@ -40,6 +40,11 @@
         "description": "Alchemy的私有仓库私有分支"
     },
     {
+        "title": "AI Agent Contexts Github Repo",
+        "link": "https://github.com/Strivin0311/ai-agent-contexts",
+        "description": "AI Agent Contexts的私有个人仓库"
+    },
+    {
         "title": "Torch Github Repo",
         "link": "https://github.com/pytorch/pytorch/tree/main/",
         "description": "PyTorch的开源仓库"
