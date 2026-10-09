@@ -40,6 +40,16 @@
         "description": "PyTorch的开源仓库"
     },
     {
+        "title": "Kian Github Repo",
+        "link": "https://github.com/SandAI-org/kian/tree/dev_kato",
+        "description": "Kian的开源仓库私有分支"
+    },
+    {
+        "title": "Alchemy Github Repo",
+        "link": "https://github.com/world-sim-dev/alchemy/tree/dev_kato",
+        "description": "Alchemy的私有仓库私有分支"
+    },
+    {
         "title": "",
         "link": "",
         "description": ""
