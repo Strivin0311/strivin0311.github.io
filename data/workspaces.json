@@ -5,11 +5,6 @@
         "description": "strivin个人的github主页"
     },
     {
-        "title": "Strivin LLM-Learning Github Repo",
-        "link": "https://github.com/Strivin0311/llms-learning",
-        "description": "llm-learning的开源仓库"
-    },
-    {
         "title": "MagiAttention Github Repo",
         "link": "https://github.com/SandAI-org/MagiAttention",
         "description": "MagiAttention的开源仓库"
@@ -35,11 +30,6 @@
         "description": "MagiCore的私有仓库"
     },
     {
-        "title": "Torch Github Repo",
-        "link": "https://github.com/pytorch/pytorch/tree/main/",
-        "description": "PyTorch的开源仓库"
-    },
-    {
         "title": "Kian Github Repo",
         "link": "https://github.com/SandAI-org/kian/tree/dev_kato",
         "description": "Kian的开源仓库私有分支"
@@ -48,6 +38,11 @@
         "title": "Alchemy Github Repo",
         "link": "https://github.com/world-sim-dev/alchemy/tree/dev_kato",
         "description": "Alchemy的私有仓库私有分支"
+    },
+    {
+        "title": "Torch Github Repo",
+        "link": "https://github.com/pytorch/pytorch/tree/main/",
+        "description": "PyTorch的开源仓库"
     },
     {
         "title": "",
