@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="580" viewBox="0 0 480 580" fill="none">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#eee9dc" stroke-opacity=".13"/></pattern><linearGradient id="ground" x1="50" y1="20" x2="450" y2="580" gradientUnits="userSpaceOnUse"><stop stop-color="#355c4d"/><stop offset="1" stop-color="#193e34"/></linearGradient></defs>
+  <path fill="url(#ground)" d="M0 0h480v580H0z"/><path fill="url(#grid)" d="M0 0h480v580H0z"/>
+  <circle cx="240" cy="279" r="158" stroke="#cdbd92" stroke-opacity=".6"/><circle cx="240" cy="279" r="127" stroke="#cdbd92" stroke-opacity=".25"/>
+  <path d="M70 279h340M240 109v340" stroke="#ded8c6" stroke-opacity=".2"/>
+  <path d="M111 371a158 158 0 0 0 274-152" stroke="#d8c28a" stroke-width="2"/>
+  <circle cx="385" cy="219" r="5" fill="#d8c28a"/><circle cx="111" cy="371" r="3" fill="#d8c28a"/>
+  <text x="240" y="320" text-anchor="middle" font-family="Georgia,serif" font-size="123" letter-spacing="-12" fill="#f0ecdf">yh<tspan fill="#d8c28a">.</tspan></text>
+  <text x="34" y="45" font-family="monospace" font-size="11" letter-spacing="2" fill="#e0ddcf" opacity=".7">PERSONAL INDEX / 01</text>
+  <path d="M34 510h412" stroke="#e0ddcf" stroke-opacity=".25"/>
+  <text x="34" y="541" font-family="monospace" font-size="11" letter-spacing="2" fill="#e0ddcf" opacity=".8">MODELS. MACHINES. POSSIBILITIES.</text>
+</svg>

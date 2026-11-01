@@ -1,2 +1,45 @@
-# strivin0311.github.io
-Strivin0311's github page
+# Yunpeng Huang · Personal website
+
+A bilingual personal homepage and everyday link collection, published with the existing GitHub Pages setup at **https://strivin0311.github.io/**.
+
+## Edit
+
+- `content.js`: biography, research interests, projects, publications, and all 22 migrated links. Keep `en` and `zh` prose together; retain original destination URLs unless explicitly changing a link.
+- `app.js`: interface translations, language preference, navigation, category filtering, and search.
+- `index.html` / `style.css`: page structure and responsive visual design.
+- `assets/portrait.svg`: an explicitly labeled monogram placeholder. Replace its image reference in `index.html` when a real portrait is supplied.
+- `magi_attn_wechat_qr.png`: **preserve this exact filename and root URL**. The existing MagiAttention QR publishing service updates this asset independently of the homepage. Neither the redesign nor future content edits should regenerate, rename, or remove it.
+- `profile.png`: pre-existing asset, retained unchanged.
+
+This is a buildless static site: there is no Python generation step, dependency installation, or external font service. The old JSON tables and `gen_index.py` have been retired. To preview:
+
+```sh
+python3 -m http.server 8770 --bind 127.0.0.1
+```
+
+Open `http://127.0.0.1:8770/`. The root defaults to Profile; `#links` opens Useful links. Language follows the browser initially and can be changed with EN / 中文; only this preference is stored in the visitor's browser. Search matches both translations and URLs. All data is static; opening a link does not grant access to a private repository.
+
+Commit and push to the existing `main` branch to publish through GitHub Pages. `.nojekyll` keeps the static files unprocessed. Check the deployed HTML and assets after deployment; do not reconfigure hosting or the QR service as part of ordinary content edits.
+
+## Content basis
+
+Initial content was reviewed on 2026-11-01. Professional title was confirmed by the owner during this redesign. Biography and interests are editable introductory prose, not a formal CV. The site intentionally does not infer degree completion dates, current student status, citation statistics, or unverified job titles. Google Scholar's student bio may be outdated; confirm education wording with the owner before adding it as a current position.
+
+Public sources:
+
+- [GitHub profile](https://github.com/Strivin0311), [Google Scholar](https://scholar.google.com/citations?user=whzKjcIAAAAJ)
+- [MagiAttention contributor listing](https://github.com/SandAI-org/MagiAttention), [NJUDeepEngine](https://github.com/NJUDeepEngine)
+- [Long-Context Attention Benchmark, ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html)
+- [MAGI-1 technical report](https://arxiv.org/abs/2505.13211)
+- [MeteoRA, ICLR 2025](https://proceedings.iclr.cc/paper_files/paper/2025/hash/8951bbdcf234132bcce680825e7cb354-Abstract-Conference.html)
+- [Neuro-symbolic Learning, NeurIPS 2023](https://papers.neurips.cc/paper_files/paper/2023/hash/4459c3c143db74ee52afebdf56836375-Abstract-Conference.html)
+
+## 中文维护说明
+
+网站沿用原有 GitHub Pages，在 `main` 提交并推送后发布，无需构建。默认打开个人主页，`#links` 打开常用链接。中英切换会更新两个栏目的内容，并只在访客本机记住语言选择；搜索支持中英描述和链接地址。
+
+内容统一维护在 `content.js`，包括简介、方向、项目、论文和迁移过来的全部 22 个链接。界面翻译在 `app.js`，布局和样式分别在 `index.html`、`style.css`。原来的 JSON 表格和 Python 生成脚本已移除。本地预览使用上面的 HTTP 服务命令。
+
+肖像暂用明确标记的字母占位图；提供照片后再替换。`magi_attn_wechat_qr.png` 的文件名和根路径地址必须保持不变，原有二维码发布服务仍独立更新它；旧的 `profile.png` 也保留。普通页面更新不需要修改托管设置或二维码服务。
+
+资料依据以上公开来源及本人确认的职位整理，核对日期为 2026-11-01。简介、兴趣方向可继续调整；不擅自推断毕业时间、是否在读、引用统计或其他职称。Scholar 的学生简介可能未及时更新，填写当前教育状态前先向本人确认。
