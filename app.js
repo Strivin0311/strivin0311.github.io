@@ -3,30 +3,30 @@ import { profile, projects, publications, linkGroups } from './content.js';
 const copy = {
   en: {
     skip: 'Skip to content', profile: 'Profile', links: 'Useful links', mainNav: 'Main navigation', language: 'Language', home: 'Yunpeng Huang · Home',
-    eyebrow: 'AI SYSTEMS / RESEARCH & ENGINEERING', heroLine: 'Working where models\nmeet machines.', affiliations: 'BACKGROUND', nju: 'M.S., Nanjing University',
+    eyebrow: 'AI SYSTEMS / RESEARCH & ENGINEERING', heroLine: 'To encode the world and decode a better one.', aliasLabel: 'ALIAS', affiliations: 'BACKGROUND', nju: 'M.S., Nanjing University',
     portraitCaption: 'My usual avatar.', portraitAlt: 'Llama wearing sunglasses, Yunpeng Huang’s profile avatar',
     focusEyebrow: '01 / WHAT I THINK ABOUT', focusTitle: 'From a single kernel\nto a system at scale.',
     workEyebrow: '02 / BUILDING & SHARING', workTitle: 'Selected work', allRepositories: 'All repositories',
-    publicationsEyebrow: '03 / RESEARCH', publicationsTitle: 'Selected publications', fullList: 'Full list on Scholar',
+    publicationsEyebrow: '03 / RESEARCH', publicationsTitle: 'Publications & writing', conference: 'Conference papers', research: 'Research & technical writing', conferenceIntro: 'Peer-reviewed conference publications.', researchIntro: 'Technical reports, surveys, and research blogs.', fullList: 'Full list on Scholar',
     collectionLabel: 'THE EVERYDAY COLLECTION', collectionTitle: 'A few useful things,\nkept close at hand.', exploreLinks: 'Explore my links',
     linksEyebrow: 'THE EVERYDAY COLLECTION / 02', linksTitle: 'Useful things,\none place.', linksIntro: 'Repositories I return to.\nDocumentation I keep open.\nA small map of my working world.',
     linksFootnote: 'A personal collection. Some repositories may require access on GitHub.', siteSource: 'Site source', all: 'All links',
     search: 'Find a link…', searchLabel: 'Search links', categories: 'Link categories', noResults: 'No matching links. Try a different search.',
-    results: n => `${n} ${n === 1 ? 'link' : 'links'} · Collected for everyday use`, openPaper: 'Read paper',
+    results: n => `${n} ${n === 1 ? 'link' : 'links'} · Collected for everyday use`, openPaper: 'Read publication',
     pageTitle: 'Yunpeng Huang · AI Systems', linksPageTitle: 'Useful links · Yunpeng Huang',
   },
   zh: {
     skip: '跳到正文', profile: '个人主页', links: '常用链接', mainNav: '主导航', language: '语言', home: 'Yunpeng Huang · 首页',
-    eyebrow: 'AI 系统 / 研究与工程', heroLine: '在模型与机器之间，\n把想法变成系统。', affiliations: '背景', nju: '南京大学硕士',
+    eyebrow: 'AI 系统 / 研究与工程', heroLine: 'To encode the world and decode a better one.', aliasLabel: '花名', affiliations: '背景', nju: '南京大学硕士',
     portraitCaption: '常用头像', portraitAlt: '戴着墨镜的羊驼，Yunpeng Huang 的常用头像',
     focusEyebrow: '01 / 关注的方向', focusTitle: '从一个算子，\n到规模化的系统。',
     workEyebrow: '02 / 构建与分享', workTitle: '一些作品', allRepositories: '全部仓库',
-    publicationsEyebrow: '03 / 研究', publicationsTitle: '论文选录', fullList: 'Scholar 完整列表',
+    publicationsEyebrow: '03 / 研究', publicationsTitle: '论文与研究', conference: '会议论文', research: '研究与技术文章', conferenceIntro: '经过同行评审的会议论文。', researchIntro: '技术报告、综述与研究博客。', fullList: 'Scholar 完整列表',
     collectionLabel: '日常会用到的东西', collectionTitle: '把常用的入口，\n放在触手可及的地方。', exploreLinks: '浏览常用链接',
     linksEyebrow: '日常收藏 / 02', linksTitle: '常用的，\n都在这里。', linksIntro: '经常回到的仓库，\n随时翻阅的文档，\n一张属于自己的工作地图。',
     linksFootnote: '个人常用链接集合。部分仓库可能需要相应的 GitHub 访问权限。', siteSource: '网站源码', all: '全部链接',
     search: '找一个链接…', searchLabel: '搜索链接', categories: '链接分类', noResults: '没有匹配的链接，换个关键词试试。',
-    results: n => `${n} 个入口 · 为日常使用而收集`, openPaper: '阅读论文',
+    results: n => `${n} 个入口 · 为日常使用而收集`, openPaper: '阅读原文',
     pageTitle: 'Yunpeng Huang · 个人主页', linksPageTitle: '常用链接 · Yunpeng Huang',
   },
 };
@@ -76,22 +76,33 @@ function renderProfile() {
     }
     return card;
   }));
-  $('publications').replaceChildren(...publications.map(paper => {
-    const row = element('article', 'publication');
-    const content = element('div');
-    const heading = element('h3');
-    heading.append(externalLink(paper.url, '', paper.title));
-    const authors = element('p', 'authors');
-    const parts = localize(paper.authors).split('Yunpeng Huang');
-    parts.forEach((part, index) => {
-      if (index) authors.append(element('strong', '', 'Yunpeng Huang'));
-      authors.append(document.createTextNode(part));
-    });
-    content.append(element('p', 'venue', paper.venue), heading, authors, element('p', 'paper-description', localize(paper.description)));
-    const open = externalLink(paper.url, 'publication-open', '↗');
-    open.setAttribute('aria-label', `${copy[language].openPaper}: ${paper.title}`);
-    row.append(element('span', 'publication-year', paper.year), content, open);
-    return row;
+  $('publications').replaceChildren(...['conference', 'research'].map(kind => {
+    const section = element('section', 'publication-group');
+    const papers = publications.filter(paper => paper.section === kind);
+    const header = element('div', 'publication-group-heading');
+    const title = element('h3', '', copy[language][kind]);
+    title.id = 'publications-' + kind;
+    section.setAttribute('aria-labelledby', title.id);
+    header.append(title, element('span', 'publication-count', papers.length));
+    section.append(header, element('p', 'publication-group-intro', copy[language][kind + 'Intro']));
+    for (const paper of papers) {
+      const row = element('article', 'publication');
+      const content = element('div');
+      const heading = element('h4');
+      heading.append(externalLink(paper.url, '', paper.title));
+      const authors = element('p', 'authors');
+      const parts = localize(paper.authors).split('Yunpeng Huang');
+      parts.forEach((part, index) => {
+        if (index) authors.append(element('strong', '', 'Yunpeng Huang'));
+        authors.append(document.createTextNode(part));
+      });
+      content.append(element('p', 'venue', localize(paper.venue)), heading, authors, element('p', 'paper-description', localize(paper.description)));
+      const open = externalLink(paper.url, 'publication-open', '↗');
+      open.setAttribute('aria-label', `${copy[language].openPaper}: ${paper.title}`);
+      row.append(element('span', 'publication-year', paper.year), content, open);
+      section.append(row);
+    }
+    return section;
   }));
 }
 function renderLinks() {

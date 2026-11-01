@@ -4,7 +4,7 @@ A bilingual personal homepage and everyday link collection, published with the e
 
 ## Edit
 
-- `content.js`: biography, research interests, projects, publications, and all 22 migrated links. Keep `en` and `zh` prose together; retain original destination URLs unless explicitly changing a link.
+- `content.js`: biography, research interests, projects, eight publications/research articles, and all 22 migrated links. Publications use `section: "conference"` or `section: "research"`; reports, surveys, and blogs are explicitly labeled. Keep `en` and `zh` prose together; retain original destination URLs unless explicitly changing a link.
 - `app.js`: interface translations, language preference, navigation, category filtering, and search.
 - `index.html` / `style.css`: page structure and responsive visual design.
 - `assets/llama-profile.png`: the owner-supplied avatar, also used on GitHub and Google Scholar. Keep image dimensions and alt text in `index.html` / `app.js` synchronized when replacing it.
@@ -23,11 +23,15 @@ Commit and push to the existing `main` branch to publish through GitHub Pages. `
 
 ## Content basis
 
-Initial content was reviewed on 2026-11-01. Professional title was confirmed by the owner during this redesign. Biography and interests are editable introductory prose, not a formal CV. The owner confirmed the degree wording as “M.S., Nanjing University” and the role as “AI Training Infra Engineer at SandAI”. The site does not infer graduation dates or citation statistics; the earlier student wording on Scholar is superseded by this confirmation.
+Initial content was reviewed on 2026-11-01. Professional title was confirmed by the owner during this redesign. Biography and interests are editable introductory prose, not a formal CV. The owner uses the alias **Kato**; the legal/publication name remains Yunpeng Huang and the GitHub handle remains Strivin0311. The signature is “To encode the world and decode a better one.” The owner confirmed the degree wording as “M.S., Nanjing University” and the role as “AI Training Infra Engineer at SandAI”. The site does not infer graduation dates or citation statistics; the earlier student wording on Scholar is superseded by this confirmation.
 
 Public sources:
 
 - [GitHub profile](https://github.com/Strivin0311), [Google Scholar](https://scholar.google.com/citations?user=whzKjcIAAAAJ)
+- [SandAI](https://sand.ai/), [MAGI-2 Preview](https://sand.ai/blog/magi-2-preview)
+- [MagiAttention technical blog](https://sandai-org.github.io/MagiAttention/blog/)
+- [MiniMax-01 technical report](https://arxiv.org/abs/2501.08313)
+- [Long-context survey](https://arxiv.org/abs/2311.12351) (2023 original; 2024 revision)
 - [MagiAttention contributor listing](https://github.com/SandAI-org/MagiAttention), [NJUDeepEngine](https://github.com/NJUDeepEngine)
 - [Long-Context Attention Benchmark, ICLR 2026](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7df69dbf39705c7a39b40f2d70e806c1-Abstract-Conference.html)
 - [MAGI-1 technical report](https://arxiv.org/abs/2505.13211)
@@ -38,8 +42,12 @@ Public sources:
 
 网站沿用原有 GitHub Pages，在 `main` 提交并推送后发布，无需构建。默认打开个人主页，`#links` 打开常用链接。中英切换会更新两个栏目的内容，并只在访客本机记住语言选择；搜索支持中英描述和链接地址。
 
-内容统一维护在 `content.js`，包括简介、方向、项目、论文和迁移过来的全部 22 个链接。界面翻译在 `app.js`，布局和样式分别在 `index.html`、`style.css`。原来的 JSON 表格和 Python 生成脚本已移除。本地预览使用上面的 HTTP 服务命令。
+内容统一维护在 `content.js`，包括简介、方向、项目、8 项论文/研究文章和迁移过来的全部 22 个链接。论文按 `section: "conference"` / `section: "research"` 分区，技术报告、综述和博客明确标注类型。界面翻译在 `app.js`，布局和样式分别在 `index.html`、`style.css`。原来的 JSON 表格和 Python 生成脚本已移除。本地预览使用上面的 HTTP 服务命令。
 
 肖像采用本人提供的 `assets/llama-profile.png`，与 GitHub 和 Scholar 头像一致。`magi_attn_wechat_qr.png` 的文件名和根路径地址必须保持不变，原有二维码发布服务仍独立更新它；旧的 `profile.png` 也保留。普通页面更新不需要修改托管设置或二维码服务。
 
-资料依据以上公开来源及本人确认的职位整理，核对日期为 2026-11-01。简介、兴趣方向可继续调整；本人已确认职位为 “AI Training Infra Engineer at SandAI”，学历为 “M.S., Nanjing University”；此前的学生身份表述已被这次确认取代。不擅自推断毕业时间、引用统计或其他职称。
+资料依据以上公开来源及本人确认的职位整理，核对日期为 2026-11-01。简介、兴趣方向可继续调整；花名为 Kato，论文署名仍为 Yunpeng Huang，GitHub 账号仍为 Strivin0311；个人签名为 “To encode the world and decode a better one.” 本人已确认职位为 “AI Training Infra Engineer at SandAI”，学历为 “M.S., Nanjing University”；此前的学生身份表述已被这次确认取代。不擅自推断毕业时间、引用统计或其他职称。
+
+The 2026-11-01 Scholar refresh covers three conference papers and five research/technical articles. The misattributed “Evaluating Large Language Models” survey is not included; the owner-authored long-context survey (arXiv:2311.12351) is included. MAGI-2 retains the team author credit “SandAI”.
+
+2026-11-01 的 Scholar 更新核对后，展示 3 篇会议论文和 5 项研究/技术文章；不收录误归属的 “Evaluating Large Language Models” 综述，补入本人署名的长上下文综述（arXiv:2311.12351）。MAGI-2 保留 SandAI 团队署名。
