@@ -33,6 +33,10 @@ export const publications = [
     authors: 'Jingwei Xu, Junyu Lai, Yunpeng Huang',
     url: 'https://proceedings.iclr.cc/paper_files/paper/2025/hash/8951bbdcf234132bcce680825e7cb354-Abstract-Conference.html',
     description: { en: 'Bringing multiple task-specific LoRA adapters into one model.', zh: '在一个模型中组合多个面向不同任务的 LoRA 适配器。' } },
+  { section: 'conference', year: '2024', venue: { en: 'SURVEY · PREPARED FOR ACM COMPUTING SURVEYS · ARXIV', zh: '综述 · 为 ACM Computing Surveys 投稿准备 · ARXIV' }, title: 'Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey',
+    authors: 'Yunpeng Huang, Jingwei Xu, Junyu Lai, Zixu Jiang, Taolue Chen, Zenan Li, Yuan Yao, Xiaoxing Ma, Lijuan Yang, Hao Chen, Shupeng Li, Penghao Zhao',
+    url: 'https://arxiv.org/abs/2311.12351',
+    description: { en: 'A survey of long-context architectures, evaluation, and optimization across the LLM lifecycle; first posted in 2023, revised in 2024.', zh: '梳理大模型全生命周期中的长上下文架构、评测与优化；2023 年首发，2024 年修订。' } },
   { section: 'conference', year: '2023', venue: 'NEURIPS 2023', title: 'Neuro-symbolic Learning Yielding Logical Constraints',
     authors: 'Zenan Li, Yunpeng Huang, Zhaoyu Li, Yuan Yao, Jingwei Xu, Taolue Chen, Xiaoxing Ma, Jian Lu',
     url: 'https://papers.neurips.cc/paper_files/paper/2023/hash/4459c3c143db74ee52afebdf56836375-Abstract-Conference.html',
@@ -51,10 +55,7 @@ export const publications = [
     authors: { en: 'MiniMax et al., including Yunpeng Huang', zh: 'MiniMax 等，作者包括 Yunpeng Huang' },
     url: 'https://arxiv.org/abs/2501.08313',
     description: { en: 'Lightning attention and mixture-of-experts models for million-token contexts.', zh: '结合 Lightning Attention 与 MoE，扩展百万 token 级上下文能力。' } },
-  { section: 'research', year: '2024', venue: { en: 'SURVEY · ARXIV · 2024 REVISION', zh: '综述 · ARXIV · 2024 修订版' }, title: 'Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey',
-    authors: 'Yunpeng Huang, Jingwei Xu, Junyu Lai, Zixu Jiang, Taolue Chen, Zenan Li, Yuan Yao, Xiaoxing Ma, Lijuan Yang, Hao Chen, Shupeng Li, Penghao Zhao',
-    url: 'https://arxiv.org/abs/2311.12351',
-    description: { en: 'A survey of long-context architectures, evaluation, and optimization across the LLM lifecycle; first posted in 2023, revised in 2024.', zh: '梳理大模型全生命周期中的长上下文架构、评测与优化；2023 年首发，2024 年修订。' } },
+
 ];
 
 export const linkGroups = [

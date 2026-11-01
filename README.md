@@ -48,6 +48,6 @@ Public sources:
 
 资料依据以上公开来源及本人确认的职位整理，核对日期为 2026-11-01。简介、兴趣方向可继续调整；花名为 Kato，论文署名仍为 Yunpeng Huang，GitHub 账号仍为 Strivin0311；个人签名为 “To encode the world and decode a better one.” 本人已确认职位为 “AI Training Infra Engineer at SandAI”，学历为 “M.S., Nanjing University”；此前的学生身份表述已被这次确认取代。不擅自推断毕业时间、引用统计或其他职称。
 
-The 2026-11-01 Scholar refresh covers three conference papers and five research/technical articles. The misattributed “Evaluating Large Language Models” survey is not included; the owner-authored long-context survey (arXiv:2311.12351) is included. MAGI-2 retains the team author credit “SandAI”.
+The 2026-11-01 Scholar refresh contains eight entries. “Technical Research” is displayed first with four entries. “Conference papers” follows with three conference publications and the long-context survey manuscript, grouped here at the owner’s request because it was prepared for submission to ACM Computing Surveys. The survey is linked to arXiv and is not labeled as an accepted ACM publication. The misattributed “Evaluating Large Language Models” survey is not included; the owner-authored long-context survey (arXiv:2311.12351) is included. MAGI-2 retains the team author credit “SandAI”.
 
-2026-11-01 的 Scholar 更新核对后，展示 3 篇会议论文和 5 项研究/技术文章；不收录误归属的 “Evaluating Large Language Models” 综述，补入本人署名的长上下文综述（arXiv:2311.12351）。MAGI-2 保留 SandAI 团队署名。
+2026-11-01 的 Scholar 更新核对后，共展示 8 项；Technical Research（技术研究）在前，共 4 项；Conference papers（会议论文）在后，包含 3 篇会议论文和 1 篇长上下文综述稿件。综述按本人要求归入此区，原因是当时为 ACM Computing Surveys 投稿准备；链接仍指向 arXiv，不标为 ACM 已录用论文。不收录误归属的 “Evaluating Large Language Models” 综述，补入本人署名的长上下文综述（arXiv:2311.12351）。MAGI-2 保留 SandAI 团队署名。

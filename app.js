@@ -7,7 +7,7 @@ const copy = {
     portraitCaption: 'My usual avatar.', portraitAlt: 'Llama wearing sunglasses, Yunpeng Huang’s profile avatar',
     focusEyebrow: '01 / WHAT I THINK ABOUT', focusTitle: 'From a single kernel\nto a system at scale.',
     workEyebrow: '02 / BUILDING & SHARING', workTitle: 'Selected work', allRepositories: 'All repositories',
-    publicationsEyebrow: '03 / RESEARCH', publicationsTitle: 'Publications & writing', conference: 'Conference papers', research: 'Research & technical writing', conferenceIntro: 'Peer-reviewed conference publications.', researchIntro: 'Technical reports, surveys, and research blogs.', fullList: 'Full list on Scholar',
+    publicationsEyebrow: '03 / RESEARCH', publicationsTitle: 'Selected Publications', conference: 'Conference papers', research: 'Technical Research', conferenceIntro: 'Conference publications and academic manuscripts.', researchIntro: 'Technical reports and research blogs.', fullList: 'Full list on Scholar',
     collectionLabel: 'THE EVERYDAY COLLECTION', collectionTitle: 'A few useful things,\nkept close at hand.', exploreLinks: 'Explore my links',
     linksEyebrow: 'THE EVERYDAY COLLECTION / 02', linksTitle: 'Useful things,\none place.', linksIntro: 'Repositories I return to.\nDocumentation I keep open.\nA small map of my working world.',
     linksFootnote: 'A personal collection. Some repositories may require access on GitHub.', siteSource: 'Site source', all: 'All links',
@@ -21,7 +21,7 @@ const copy = {
     portraitCaption: '常用头像', portraitAlt: '戴着墨镜的羊驼，Yunpeng Huang 的常用头像',
     focusEyebrow: '01 / 关注的方向', focusTitle: '从一个算子，\n到规模化的系统。',
     workEyebrow: '02 / 构建与分享', workTitle: '一些作品', allRepositories: '全部仓库',
-    publicationsEyebrow: '03 / 研究', publicationsTitle: '论文与研究', conference: '会议论文', research: '研究与技术文章', conferenceIntro: '经过同行评审的会议论文。', researchIntro: '技术报告、综述与研究博客。', fullList: 'Scholar 完整列表',
+    publicationsEyebrow: '03 / 研究', publicationsTitle: '论文选录', conference: '会议论文', research: '技术研究', conferenceIntro: '会议论文与学术稿件。', researchIntro: '技术报告与研究博客。', fullList: 'Scholar 完整列表',
     collectionLabel: '日常会用到的东西', collectionTitle: '把常用的入口，\n放在触手可及的地方。', exploreLinks: '浏览常用链接',
     linksEyebrow: '日常收藏 / 02', linksTitle: '常用的，\n都在这里。', linksIntro: '经常回到的仓库，\n随时翻阅的文档，\n一张属于自己的工作地图。',
     linksFootnote: '个人常用链接集合。部分仓库可能需要相应的 GitHub 访问权限。', siteSource: '网站源码', all: '全部链接',
@@ -76,7 +76,7 @@ function renderProfile() {
     }
     return card;
   }));
-  $('publications').replaceChildren(...['conference', 'research'].map(kind => {
+  $('publications').replaceChildren(...['research', 'conference'].map(kind => {
     const section = element('section', 'publication-group');
     const papers = publications.filter(paper => paper.section === kind);
     const header = element('div', 'publication-group-heading');
