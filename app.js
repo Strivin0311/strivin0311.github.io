@@ -3,8 +3,8 @@ import { profile, projects, publications, linkGroups } from './content.js';
 const copy = {
   en: {
     skip: 'Skip to content', profile: 'Profile', links: 'Useful links', mainNav: 'Main navigation', language: 'Language', home: 'Yunpeng Huang · Home',
-    eyebrow: 'AI SYSTEMS / RESEARCH & ENGINEERING', heroLine: 'Working where models\nmeet machines.', affiliations: 'BACKGROUND', nju: 'Nanjing University',
-    portraitCaption: 'A portrait, for now.', portraitAlt: 'YH monogram, a placeholder for a future portrait',
+    eyebrow: 'AI SYSTEMS / RESEARCH & ENGINEERING', heroLine: 'Working where models\nmeet machines.', affiliations: 'BACKGROUND', nju: 'M.S., Nanjing University',
+    portraitCaption: 'My usual avatar.', portraitAlt: 'Llama wearing sunglasses, Yunpeng Huang’s profile avatar',
     focusEyebrow: '01 / WHAT I THINK ABOUT', focusTitle: 'From a single kernel\nto a system at scale.',
     workEyebrow: '02 / BUILDING & SHARING', workTitle: 'Selected work', allRepositories: 'All repositories',
     publicationsEyebrow: '03 / RESEARCH', publicationsTitle: 'Selected publications', fullList: 'Full list on Scholar',
@@ -17,8 +17,8 @@ const copy = {
   },
   zh: {
     skip: '跳到正文', profile: '个人主页', links: '常用链接', mainNav: '主导航', language: '语言', home: 'Yunpeng Huang · 首页',
-    eyebrow: 'AI 系统 / 研究与工程', heroLine: '在模型与机器之间，\n把想法变成系统。', affiliations: '背景', nju: '南京大学',
-    portraitCaption: '照片待补，先以字为像。', portraitAlt: '由 YH 字母组成的占位肖像，后续可替换为照片',
+    eyebrow: 'AI 系统 / 研究与工程', heroLine: '在模型与机器之间，\n把想法变成系统。', affiliations: '背景', nju: '南京大学硕士',
+    portraitCaption: '常用头像', portraitAlt: '戴着墨镜的羊驼，Yunpeng Huang 的常用头像',
     focusEyebrow: '01 / 关注的方向', focusTitle: '从一个算子，\n到规模化的系统。',
     workEyebrow: '02 / 构建与分享', workTitle: '一些作品', allRepositories: '全部仓库',
     publicationsEyebrow: '03 / 研究', publicationsTitle: '论文选录', fullList: 'Scholar 完整列表',

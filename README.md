@@ -7,7 +7,7 @@ A bilingual personal homepage and everyday link collection, published with the e
 - `content.js`: biography, research interests, projects, publications, and all 22 migrated links. Keep `en` and `zh` prose together; retain original destination URLs unless explicitly changing a link.
 - `app.js`: interface translations, language preference, navigation, category filtering, and search.
 - `index.html` / `style.css`: page structure and responsive visual design.
-- `assets/portrait.svg`: an explicitly labeled monogram placeholder. Replace its image reference in `index.html` when a real portrait is supplied.
+- `assets/llama-profile.png`: the owner-supplied avatar, also used on GitHub and Google Scholar. Keep image dimensions and alt text in `index.html` / `app.js` synchronized when replacing it.
 - `magi_attn_wechat_qr.png`: **preserve this exact filename and root URL**. The existing MagiAttention QR publishing service updates this asset independently of the homepage. Neither the redesign nor future content edits should regenerate, rename, or remove it.
 - `profile.png`: pre-existing asset, retained unchanged.
 
@@ -23,7 +23,7 @@ Commit and push to the existing `main` branch to publish through GitHub Pages. `
 
 ## Content basis
 
-Initial content was reviewed on 2026-11-01. Professional title was confirmed by the owner during this redesign. Biography and interests are editable introductory prose, not a formal CV. The site intentionally does not infer degree completion dates, current student status, citation statistics, or unverified job titles. Google Scholar's student bio may be outdated; confirm education wording with the owner before adding it as a current position.
+Initial content was reviewed on 2026-11-01. Professional title was confirmed by the owner during this redesign. Biography and interests are editable introductory prose, not a formal CV. The owner confirmed the degree wording as “M.S., Nanjing University” and the role as “AI Training Infra Engineer at SandAI”. The site does not infer graduation dates or citation statistics; the earlier student wording on Scholar is superseded by this confirmation.
 
 Public sources:
 
@@ -40,6 +40,6 @@ Public sources:
 
 内容统一维护在 `content.js`，包括简介、方向、项目、论文和迁移过来的全部 22 个链接。界面翻译在 `app.js`，布局和样式分别在 `index.html`、`style.css`。原来的 JSON 表格和 Python 生成脚本已移除。本地预览使用上面的 HTTP 服务命令。
 
-肖像暂用明确标记的字母占位图；提供照片后再替换。`magi_attn_wechat_qr.png` 的文件名和根路径地址必须保持不变，原有二维码发布服务仍独立更新它；旧的 `profile.png` 也保留。普通页面更新不需要修改托管设置或二维码服务。
+肖像采用本人提供的 `assets/llama-profile.png`，与 GitHub 和 Scholar 头像一致。`magi_attn_wechat_qr.png` 的文件名和根路径地址必须保持不变，原有二维码发布服务仍独立更新它；旧的 `profile.png` 也保留。普通页面更新不需要修改托管设置或二维码服务。
 
-资料依据以上公开来源及本人确认的职位整理，核对日期为 2026-11-01。简介、兴趣方向可继续调整；不擅自推断毕业时间、是否在读、引用统计或其他职称。Scholar 的学生简介可能未及时更新，填写当前教育状态前先向本人确认。
+资料依据以上公开来源及本人确认的职位整理，核对日期为 2026-11-01。简介、兴趣方向可继续调整；本人已确认职位为 “AI Training Infra Engineer at SandAI”，学历为 “M.S., Nanjing University”；此前的学生身份表述已被这次确认取代。不擅自推断毕业时间、引用统计或其他职称。
