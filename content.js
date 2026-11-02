@@ -33,7 +33,7 @@ export const publications = [
     authors: 'Jingwei Xu, Junyu Lai, Yunpeng Huang',
     url: 'https://proceedings.iclr.cc/paper_files/paper/2025/hash/8951bbdcf234132bcce680825e7cb354-Abstract-Conference.html',
     description: { en: 'Bringing multiple task-specific LoRA adapters into one model.', zh: '在一个模型中组合多个面向不同任务的 LoRA 适配器。' } },
-  { section: 'conference', year: '2024', venue: { en: 'SURVEY · PREPARED FOR ACM COMPUTING SURVEYS · ARXIV', zh: '综述 · 为 ACM Computing Surveys 投稿准备 · ARXIV' }, title: 'Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey',
+  { section: 'conference', year: '2024', venue: { en: 'SURVEY MANUSCRIPT · ACM COMPUTING SURVEYS · ARXIV', zh: '综述稿件 · ACM Computing Surveys · ARXIV' }, title: 'Advancing Transformer Architecture in Long-Context Large Language Models: A Comprehensive Survey',
     authors: 'Yunpeng Huang, Jingwei Xu, Junyu Lai, Zixu Jiang, Taolue Chen, Zenan Li, Yuan Yao, Xiaoxing Ma, Lijuan Yang, Hao Chen, Shupeng Li, Penghao Zhao',
     url: 'https://arxiv.org/abs/2311.12351',
     description: { en: 'A survey of long-context architectures, evaluation, and optimization across the LLM lifecycle; first posted in 2023, revised in 2024.', zh: '梳理大模型全生命周期中的长上下文架构、评测与优化；2023 年首发，2024 年修订。' } },
@@ -69,7 +69,6 @@ export const linkGroups = [
     { title: 'Kian', url: 'https://github.com/SandAI-org/kian/tree/dev_kato', icon: 'KI', description: { en: 'My dev_kato branch for everyday automation.', zh: '日常自动化服务所在的 dev_kato 分支。' } },
     { title: 'Alchemy', url: 'https://github.com/world-sim-dev/alchemy/tree/dev_kato', icon: 'AL', description: { en: 'My dev_kato branch for experiment operations.', zh: '实验运维相关的 dev_kato 分支。' } },
     { title: 'AI Agent Contexts', url: 'https://github.com/Strivin0311/ai-agent-contexts', icon: 'AC', description: { en: 'A shared home for agent context and handoffs.', zh: 'Agent 上下文、交接与知识的共享仓库。' } },
-    { title: 'PyTorch', url: 'https://github.com/pytorch/pytorch/tree/main/', icon: 'PT', description: { en: 'Source code, development, and discussions.', zh: 'PyTorch 源码、开发进展与讨论。' } },
   ] },
   { id: 'documentation', title: { en: 'Documentation', zh: '文档与参考' }, subtitle: { en: 'Good references, always within reach.', zh: '经常翻阅的技术文档，随手就能找到。' }, items: [
     { title: 'PyTorch', url: 'https://pytorch.org/docs/stable/index.html', icon: 'PT', description: { en: 'Stable API reference and user guides.', zh: '稳定版 API 参考与用户指南。' } },
@@ -82,7 +81,6 @@ export const linkGroups = [
     { title: 'Nsight Compute', url: 'https://docs.nvidia.com/nsight-compute/NsightCompute/index.html', icon: 'CO', description: { en: 'Kernel profiling and GPU performance metrics.', zh: '算子性能剖析与 GPU 性能指标。' } },
     { title: 'Compute Sanitizer', url: 'https://docs.nvidia.com/compute-sanitizer/ComputeSanitizer/index.html', icon: 'CS', description: { en: 'Debugging memory, races, and synchronization.', zh: '内存错误、数据竞争与同步问题排查。' } },
     { title: 'Triton', url: 'https://triton-lang.org/main/python-api/triton.language.html', icon: 'TR', description: { en: 'Triton language API reference.', zh: 'Triton 语言 API 参考。' } },
-    { title: 'pybind11', url: 'https://pybind11.readthedocs.io/en/stable/index.html', icon: 'PY', description: { en: 'Connecting Python and C++.', zh: 'Python 与 C++ 的绑定与互操作。' } },
     { title: 'NVIDIA PyTorch Release Notes', url: 'https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html', icon: 'NG', description: { en: 'NGC PyTorch container releases and compatibility.', zh: 'NGC PyTorch 镜像发布与兼容性说明。' } },
   ] },
 ];
