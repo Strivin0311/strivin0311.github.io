@@ -73,6 +73,7 @@ export const linkGroups = [
   { id: 'documentation', title: { en: 'Documentation', zh: '文档与参考' }, subtitle: { en: 'Good references, always within reach.', zh: '经常翻阅的技术文档，随手就能找到。' }, items: [
     { title: 'PyTorch', url: 'https://pytorch.org/docs/stable/index.html', icon: 'PT', description: { en: 'Stable API reference and user guides.', zh: '稳定版 API 参考与用户指南。' } },
     { title: 'CUDA Toolkit', url: 'https://docs.nvidia.com/cuda/index.html', icon: 'CU', description: { en: 'Programming guides, best practices, APIs, and PTX.', zh: '编程指南、最佳实践、API 与 PTX ISA。' } },
+    { title: 'PTX ISA', url: 'https://docs.nvidia.com/cuda/parallel-thread-execution', icon: 'PX', description: { en: 'Parallel Thread Execution instruction set reference.', zh: '并行线程执行虚拟指令集参考。' } },
     { title: 'CUTLASS', url: 'https://docs.nvidia.com/cutlass/index.html', icon: 'CT', description: { en: 'GPU linear algebra and kernel building blocks.', zh: 'GPU 线性代数与算子构建模块。' } },
     { title: 'CCCL', url: 'https://nvidia.github.io/cccl/unstable/cpp.html', icon: 'CC', description: { en: 'CUDA Core Compute Libraries for C++.', zh: 'CUDA C++ 核心计算库文档。' } },
     { title: 'NCCL', url: 'https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/index.html', icon: 'NC', description: { en: 'Multi-GPU collective communication.', zh: '多 GPU 集合通信用户指南。' } },
